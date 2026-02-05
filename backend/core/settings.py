@@ -16,12 +16,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',      
     'corsheaders',         
-    'plots', # Your app to save/retrieve plots 
+    'plots', 
 ]
 
 # --- MIDDLEWARE ---
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware', # Must be first
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -49,7 +49,6 @@ TEMPLATES = [
     },
 ]
 
-# --- DATABASE (PostgreSQL) --- [cite: 1, 6, 14]
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',

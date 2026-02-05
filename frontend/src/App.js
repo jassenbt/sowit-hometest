@@ -157,39 +157,36 @@ function App() {
                 zIndex: 2,
                 borderRight: '1px solid rgba(0,0,0,0.08)'
             }}>
-                {/* En-tête */}
-                <div style={{ 
-                    padding: '24px 28px', 
-                    borderBottom: '1px solid rgba(0,0,0,0.08)'
-                }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
-                        <div style={{ 
-                            width: '48px', height: '48px', 
-                            background: 'linear-gradient(135deg, #22c55e 0%, #16a34a 100%)', 
-                            borderRadius: '14px',
-                            display: 'flex', alignItems: 'center', justifyContent: 'center',
-                            fontSize: '24px',
-                            boxShadow: '0 8px 32px rgba(34, 197, 94, 0.25)'
-                        }}>🌾</div>
-                        <div>
-                            <h1 style={{ 
-                                margin: 0, 
-                                fontSize: '24px', 
-                                color: '#1a1a1a', 
-                                fontWeight: '700',
-                                letterSpacing: '-0.5px'
-                            }}>SOWIT</h1>
-                            <p style={{ 
-                                margin: 0, 
-                                fontSize: '13px', 
-                                color: 'rgba(0,0,0,0.5)',
-                                fontWeight: '400'
-                            }}>Gestionnaire de parcelles agricoles</p>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Boutons d'ajout de parcelle */}
+              
+                                <div style={{ 
+                                    padding: '24px 28px', 
+                                    borderBottom: '1px solid rgba(0,0,0,0.08)'
+                                }}>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
+                                        <div style={{ 
+                                            width: '80px', height: '80px', 
+                                            borderRadius: '14px',
+                                            display: 'flex', alignItems: 'center', justifyContent: 'center',
+                                            fontSize: '24px',
+                                            overflow: 'hidden',
+                                            background: '#fff'
+                                        }}>
+                                            <img
+                                                src={require('./assets/logo/logo.png')}
+                                                alt="SOWIT"
+                                                style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block' }}
+                                            />
+                                        </div>
+                                        <div>
+                                            <p style={{ 
+                                                margin: 0, 
+                                                fontSize: '13px', 
+                                                color: 'rgba(0,0,0,0.5)',
+                                                fontWeight: '400'
+                                            }}>Gestionnaire de parcelles agricoles</p>
+                                        </div>
+                                    </div>
+                                </div>
                 <div style={{ 
                     padding: '20px 28px 12px',
                     display: 'flex',
@@ -681,7 +678,7 @@ function App() {
                                             e.target.style.borderColor = 'rgba(0,0,0,0.1)';
                                         }}
                                     >
-                                        Cancel
+                                        Annuler
                                     </button>
                                     <button 
                                         type="submit" 
@@ -707,7 +704,7 @@ function App() {
                                             e.target.style.boxShadow = '0 8px 32px rgba(34, 197, 94, 0.3)'; 
                                         }}
                                     >
-                                        Save Plot
+                                        Sauvegarder
                                     </button>
                                 </div>
                             </form>

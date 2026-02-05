@@ -205,25 +205,7 @@ const MapComponent = ({ onSave, selectedPlot, plots, isDrawingMode }) => {
                     backdropFilter: 'blur(6px)'
                 }}
             >
-                <div style={{ fontSize: 12, fontWeight: 600, marginBottom: 6, letterSpacing: '.06em', textTransform: 'uppercase' }}>
-                    Parcelles
-                </div>
-                <div style={{ display: 'flex', alignItems: 'center', marginBottom: 4 }}>
-                    <span
-                        style={{
-                            width: 16,
-                            height: 16,
-                            borderRadius: '50%',
-                            marginRight: 8,
-                            background:
-                                'conic-gradient(from 0deg, #e74c3c, #f1c40f, #2ecc71, #3498db, #9b59b6, #e67e22, #e74c3c)'
-                        }}
-                    ></span>
-                    <span>Chaque parcelle possède une couleur unique aléatoire.</span>
-                </div>
-                <div style={{ fontSize: 10, color: '#9ca3af', marginTop: 4 }}>
-                    Cliquez sur une parcelle pour voir le détail de la culture et de la surface.
-                </div>
+               
             </div>
 
             <div
