@@ -1,0 +1,54 @@
+# --- General ---
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Python / Django (Backend) ---
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*.py[cod]
+backend/venv/
+backend/.venv/
+backend/env/
+backend/db.sqlite3
+backend/media/
+backend/staticfiles/
+
+backend/logs/
+!backend/logs/.gitkeep
+
+# Django Secret Keys & Local Settings
+backend/**/.env
+backend/core/local_settings.py
+
+# --- Node / React (Frontend) ---
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.pnp
+.pnp.js
+
+# Testing coverage
+frontend/coverage/
+
+# React Environment Variables
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Debug logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# --- Docker ---
+docker-compose.override.yml
+.env.docker
+
+# --- IDEs / Editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
