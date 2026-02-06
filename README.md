@@ -42,3 +42,8 @@ Backend API: http://localhost:8000/api/plots/
 ✅ Visualization: Saved plots are rendered on the map with specific colors (Yellow for Wheat, Green for Olives, etc.).
 
 ✅ Interactive Map: Clicking a saved plot shows a popup with detailed info; clicking a sidebar item flies the camera to the plot.
+<img width="1576" height="708" alt="image" src="https://github.com/user-attachments/assets/4a6b3da3-3fae-47d0-836f-e0f749666c25" />
+<img width="1515" height="518" alt="image" src="https://github.com/user-attachments/assets/e61912c1-1579-4232-9f61-b7177ae26780" />
+
+
+
